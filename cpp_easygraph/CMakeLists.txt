@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.23)
 project(cpp_easygraph)
 set(CMAKE_CXX_STANDARD 11)
+find_package(pybind11 REQUIRED)
 
 file(GLOB SOURCES
     classes/*.cpp
